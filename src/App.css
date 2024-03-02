@@ -1,0 +1,209 @@
+
+.ng{
+  background-image: url("https://i.pinimg.com/564x/5f/6e/11/5f6e11d93a06be6df257d7432404177b.jpg");
+  background-size: cover;
+}
+  #heart-icon {
+  color: red !important;
+
+  font-size: 24px;
+
+
+  padding: 5px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('./Images/play.png'); /* Replace 'play-icon.png' with the URL of your play icon image */
+  width: 85px; /* Adjust the width and height of the play icon as needed */
+  height: 85px;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .play-icon {
+  opacity: 1;
+}
+
+
+
+
+a span{
+  text-decoration: none !important;
+  color:green;
+  font-size: medium;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ser{
+  width:2rem;
+  border-radius:5px;
+}
+
+.bg{
+  /* background-image: url("https://i.pinimg.com/564x/3c/e6/84/3ce684aa5f6702942ed5e8bd37c41fed.jpg"); */
+  background-size: cover;
+  height: 100vh;
+}
+header .header {
+  background-color: #74c99a;
+  height: 45px;
+  
+}
+.login-header{
+  color:#328f8a;
+  font-stretch: narrower;
+  font-synthesis-weight:fg;
+}
+.login-page {
+  width: 300px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.login-page .form .login {
+  margin-top: -31px;
+  margin-bottom: 26px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background-image:url("https://w0.peakpx.com/wallpaper/736/373/HD-wallpaper-cool-glasses-cool-tupac2x-attractive-future-girl-glass-glasses-lights-neon.jpg");
+  background-size: cover;
+  max-width: 450px;
+  min-height: 450px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  animation: fadeIn 0.5s ease forwards; /* Fade-in animation */
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px); /* Slide up */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #723636;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 50px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #210303;
+  background-image: linear-gradient(45deg, #328f8a, #7bc994);
+  width: 100%;
+  border-radius:50px;
+  padding: 15px;
+  color: #ceb7b7;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.register-page {
+  width: 300px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.register-page .form .register {
+  margin-top: -31px;
+  margin-bottom: 26px;
+}
+
+.album {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  overflow-x: auto; 
+  padding: 0px 10px;
+}
+.card-img-top {
+  width: 100%;
+  height: 50%;
+  height: 270px;
+}
+.card-title {
+  height: 50px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.h5 {
+  margin: 0px !important;
+}
+.card{
+  border: 0px !important;
+  border-radius: 10px !important;
+}
+.Container {
+  background-image: url("https://wallpapercave.com/wp/wp6373924.jpg");
+  background-size:cover;
+  background-attachment: fixed; 
+  /* height: 100vh; */
+}
+.audio-player {
+  width: 300px;
+  height: auto;
+  margin-block-end: 55px;
+}
+
+.audio-element {
+  left: auto;
+  text-align: center;
+  z-index: 1;
+  color: #328f8a;
+  width: 750px;
+}
+audio::-webkit-media-controls-panel {
+  background-color: burlywood;
+  color: #fff;
+  border-radius: 5px;
+}
+audio::-webkit-media-controls-timeline {
+  /* background-color: #666; */
+  /* color: red; */
+}
+audio::-webkit-media-controls-volume-slider {
+  background-color: red;
+}
+.nav-link{
+  color:green !important;
+  font-size:medium;
+  padding-left: 5px;
+  animation: slideIn 0.5s ease forwards; /* Apply the animation */
+}
+
